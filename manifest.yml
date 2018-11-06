@@ -1,0 +1,7 @@
+buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.15
+path: ./build/libs/sovos-caller.jar
+memory: 1G
+name: sovos-caller
+instances: 1
+env:
+  TZ: America/New_York
